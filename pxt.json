@@ -2,8 +2,7 @@
     "name": "turkey_imgs",
     "description": "",
     "dependencies": {
-        "device": "*",
-        "carnival": "github:microsoft/arcade-carnival#v0.0.7"
+        "device": "*"
     },
     "files": [
         "main.blocks",
@@ -14,12 +13,9 @@
         "tilemap.g.ts",
         "images.g.jres",
         "images.g.ts",
-        "tutorial.custom.ts",
         "pxt.json"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
+    "testFiles": [],
     "targetVersions": {
         "branch": "v1.12.46",
         "tag": "v1.12.46",
@@ -31,7 +27,7 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj",
+    "preferredEditor": "tsprj",
     "palette": [
         "#000000",
         "#FFFFFF",
